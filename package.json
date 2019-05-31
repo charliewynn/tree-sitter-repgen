@@ -1,0 +1,34 @@
+{
+	"name": "tree-sitter-repgen",
+	"version": "1.0.0",
+	"description": "tree sitter parser for poweron repgen",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"generate": "node_modules\\.bin\\tree-sitter generate",
+		"parse": "node_modules\\.bin\\tree-sitter parse",
+		"base": "node_modules\\.bin\\tree-sitter parse repgens\\base.rd"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/charliewynn/tree-sitter-repgen.git"
+	},
+	"keywords": [
+		"tree-sitter",
+		"poweron",
+		"repgen",
+		"symitar"
+	],
+	"author": "charlie wynn",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/charliewynn/tree-sitter-repgen/issues"
+	},
+	"homepage": "https://github.com/charliewynn/tree-sitter-repgen#readme",
+	"dependencies": {
+		"nan": "^2.14.0"
+	},
+	"devDependencies": {
+		"tree-sitter-cli": "^0.15.2"
+	}
+}
